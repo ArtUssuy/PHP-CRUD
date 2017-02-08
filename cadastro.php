@@ -15,10 +15,16 @@
 		require 'config_server.php';
 		require 'database_server.php';
 
-		echo '<pre>';
-		print_r(DBRead('clientes'));
-		echo '</pre>';
 
+
+		$cliente = array(
+			'nome' => 'Daniela',
+			'idade' => 21,
+			'endereco' => 'Rua igarapava',
+			'senha' => 123
+			);
+
+		$drop = DBDelete('clientes', 'id = 6');
 	?>
 
 </body>
