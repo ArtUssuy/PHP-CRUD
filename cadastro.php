@@ -14,13 +14,8 @@
 		require 'connection_server.php';
 		require 'config_server.php';
 		require 'database_server.php';
-
-		echo '<pre>';
-		print_r(DBRead('clientes'));
-		echo '</pre>';
-
 	?>
-
+	
 </body>
 </html>
 

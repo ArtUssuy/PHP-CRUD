@@ -1,5 +1,5 @@
 <?php
-
+//configuração de conexão ao servidor
 	define('DB_HOSTNAME', 'localhost');
 	define('DB_USERNAME', 'root');
 	define('DB_PASSWORD', 'Warcraft1');
